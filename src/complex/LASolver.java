@@ -318,15 +318,6 @@ public class LASolver {
 		}
 		return false;
 	}
-	
-	public Complex [] kontrollRechnungComplex (Complex [][] A, Complex[] L ) {
-		Complex [] y = new Complex [L.length];
-		for (int i=0;i<L.length;i++) {
-			for (int j=0;j<L.length;j++) {
-				y[i] =A[i][j].mul(L[j]);
-			}
-		}
-		return y;
-		}
+
 }
 
